@@ -102,7 +102,7 @@ header {
 }
 .icono:hover
 {
-    animation: moving 1.9s steps(40) 1;
+    animation: moving 1.5s steps(50) 1;
     
 }
 @keyframes moving {
@@ -157,7 +157,7 @@ header {
 }
 .share
 {
-    background: url(/Proyecto-LM/img/IconoCompartir.png) no-repeat;
+    background: url(/inicio/img/IconoCompartir.png) no-repeat;
     height: 90px;
     width: 90px;
     background-size: 50%;
@@ -284,7 +284,7 @@ a:hover {
 
     height: 90px;
     width: 90px;
-    background: url(/Proyecto-LM/img/corazón.png) no-repeat;
+    background: url(/inicio/img/corazón.png) no-repeat;
     background-position: left;
     background-size: 2900%;
 
@@ -330,7 +330,7 @@ a:hover {
 }
 
 .comment {
-    background: url(/Proyecto-LM/img/comentari-boton.png) no-repeat;
+    background: url(/inicio/img/comentari-boton.jpg) no-repeat;
     height: 90px;
     width: 90px;
     background-size: 60%;
@@ -370,7 +370,7 @@ a:hover {
 
     height: 90px;
     width: 90px;
-    background: url(/Proyecto-LM/img/corazón.png) no-repeat;
+    background: url(/inicio/img/corazón.png) no-repeat;
     background-position: left;
     background-size: 2900%;
 
@@ -416,7 +416,7 @@ a:hover {
 }
 
 .comment1 {
-    background: url(/Proyecto-LM/img/comentari-boton.png) no-repeat;
+    background: url(/inicio/img/comentari-boton.jpg) no-repeat;
     height: 90px;
     width: 90px;
     background-size: 60%;
@@ -453,7 +453,7 @@ a:hover {
 
     height: 90px;
     width: 90px;
-    background: url(/Proyecto-LM/img/corazón.png) no-repeat;
+    background: url(/inicio/img/corazón.png) no-repeat;
     background-position: left;
     background-size: 2900%;
 
@@ -499,7 +499,7 @@ a:hover {
 }
 
 .comment2 {
-    background: url(/Proyecto-LM/img/comentari-boton.png) no-repeat;
+    background: url(/inicio/img/comentari-boton.jpg) no-repeat;
     height: 90px;
     width: 90px;
     background-size: 60%;
@@ -534,9 +534,9 @@ a:hover {
 
 .content3 .heart3 {
 
-    height: 90px;
+    height: 100px;
     width: 90px;
-    background: url(/Proyecto-LM/img/corazón.png) no-repeat;
+    background: url(/inicio/img/corazón.png) no-repeat;
     background-position: left;
     background-size: 2900%;
 
@@ -582,7 +582,7 @@ a:hover {
 }
 
 .comment3 {
-    background: url(/Proyecto-LM/img/comentari-boton.png) no-repeat;
+    background: url(/inicio/img/comentari-boton.png) no-repeat;
     height: 90px;
     width: 90px;
     background-size: 60%;
@@ -619,7 +619,7 @@ a:hover {
 
     height: 90px;
     width: 90px;
-    background: url(/Proyecto-LM/img/corazón.png) no-repeat;
+    background: url(/inicio/img/corazón.png) no-repeat;
     background-position: left;
     background-size: 2900%;
 
@@ -665,7 +665,7 @@ a:hover {
 }
 
 .comment4 {
-    background: url(/Proyecto-LM/img/comentari-boton.png) no-repeat;
+    background: url(/inicio/img/comentari-boton.png) no-repeat;
     height: 90px;
     width: 90px;
     background-size: 60%;
