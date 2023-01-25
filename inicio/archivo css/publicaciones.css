@@ -60,6 +60,7 @@ body {
     display: flex;
     justify-content: flex-end;
     font-size: 10px;
+    width: 200px;
 }
 
 .minicaja {
@@ -129,7 +130,7 @@ header {
 .logo:hover {
     transform: scale(1.1) translate(5px, -10px);
 }
-/*Usuario Comenta*/
+
 .usuarioIncognito {
     width: 35px;
     height: 35px;
@@ -219,6 +220,7 @@ section {
 .contenedorNav {
     min-height: 60vh;
     min-width: 18vh;
+    
 
 
 }

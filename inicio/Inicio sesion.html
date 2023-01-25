@@ -1,32 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./archivo css/inicio de sesión y cambio.css">
     <title>Document</title>
 </head>
 <header>
-    <div> 
-        <img src="./archivo css/Logo.PNG" alt="logo">
-        
-        <div id="divhijo">
-            <h1>ChattingFriends.Com</h1>
-        </div>
+    <div class="cajalogo"><img class="logo" src="/inicio/img/Logo.PNG"></div>
+    <div>
+        <h1 class="Nombreweb">ChattingFriends.com</h1>
     </div>
-    </header>
-    
-    <!-- en el action tiene que redirigir a la pagina principal de la red social -->
-    <form action="" method="post">
+</header>
+<!-- en el action tiene que redirigir a la pagina principal de la red social -->
+<main>
+    <form action="./publicaciones.html" method="post">
         <label for="username">Usuario:</label>
-        <input type="text" id="username" name="username" required><br>
+        <input class="IngresarDatos" type="text" id="username" name="username" required>
         <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required><br>
+        <input class="IngresarDatos" type="password" id="password" name="password" required>
         <p><a href="./Cambiar contraseña.html" target="_blank"> ¿Has olvidado la Contraseña?</a></p>
         <p><a href="./Darse de alta.html" target="_blank"> ¿No tienes cuenta? ¡Crea una!</a></p>
-        <input type="submit" value="Iniciar Sesion">
-        
-      </form> 
-     
+        <div class="cajaboton"><a href="./publicaciones.html" target="_blank"><input  class="BotonIniciar" type="submit" value="Iniciar Sesion"></a></div>
+    </form>
+</main>
 </body>
-</html>
 
+</html>

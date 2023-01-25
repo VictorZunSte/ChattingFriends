@@ -1,86 +1,107 @@
 header {
-    background-color: black;
-    color: white;
-    height: 50px;
-    width: 100%;
-    padding-bottom: 45px;
+  min-height: 20vh;
+  min-width: 280px;
+  background-color: rgba(0, 0, 0, 0.849);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
 
-img{
-    width: 130px;
-    height: 95px;
-}
-
-h1{
-    color: white;
-    letter-spacing: 5px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-right: 20px;
-    
-}
 body {
-    background-color: #4CAF50;
-    height: 100%;
-    width: 100%;
-    margin:0%;
-  }
- 
+  box-sizing: border-box;
+  background-color: rgb(87, 127, 26);
+  margin: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+
+}
 
 
-#formulario{
-    
-    display: flex;
-    background-color: whitesmoke;
-    border-color: black;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    box-shadow: 0px 0px 5px 1px black;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    
-    position:relative;
-    margin-left: 30%;
-    font-weight: bold;
-    margin-top: 5%;
-    
-    
+#formulario {
+
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px black;
+  width: 420px;
+  height: 570px;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+
+
 }
-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nombre{
-    display: flex;
-  flex-direction: row-reverse;
-    margin: 0%;
-    
-  }
- 
-input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    
-  }
+
+.datos {
+  display: flex;
+  margin-top: 4px;
+  height: 40px;
+  width: 400px;
+  justify-content: space-between;
   
-form{
-   
-    
-    font-size: 20px;
-    
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.div-boton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+}
+
+.IngresarDatos {
+  height: 20px;
+  width: 170px;
 }
 
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
 input[type="submit"]:focus {
-    background-color: blue;
+  background-color: blue;
+}
+
+.Nombreweb {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 10px;
+}
+
+.logo {
+  display: block;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  transition: all 3s;
+
+}
+
+.cajalogo {
+  margin: 10px;
+
+}
+
+.logo:hover {
+  transform: scale(1.1) translate(5px, -10px);
 }
