@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  
+
+}
+
+body {
+  background-color: #4CAF50;
+  height: 100%;
+  width: 100%;
+}
+
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 300px;
+  text-align: left;
+}
+
+.IngresarDatos {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: -10px;
+}
+.Nombreweb {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 10px;
+}
+.logo {
+  display: block;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  transition: all 3s;
+
+}
+.cajalogo {
+  margin: 10px;
+
+}
+
+.logo:hover {
+  transform: scale(1.1) translate(5px, -10px);
+}
+
+.BotonIniciar {
+  background-color: #4CAF50;
+  color: white;
+  width: 90px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.BotonIniciar:hover {
+  background-color: #45a049;
+}
+
+header {
+  min-height: 20vh;
+  min-width: 280px;
+  background-color: rgba(0, 0, 0, 0.849);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.cajaboton
+{
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.BotonIniciar:focus {
+  background-color: blue;
+}
+
+a {
+
+  color: black;
+  font-weight: bold;
+
+
+}
+
+a:focus {
+  background-color: blue;
+}
+
+a:hover {
+  background-color: #45a049;
+}

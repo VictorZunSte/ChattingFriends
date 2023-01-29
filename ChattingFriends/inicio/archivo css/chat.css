@@ -1,0 +1,431 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.849);
+    
+}
+header {
+    min-height: 10%;
+    min-width: 280px;
+    background-color: rgba(0, 0, 0, 0.849);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.cajalogo {
+    margin: 10px;
+
+}
+
+.logo {
+    display: block;
+    border-radius: 100px;
+    transition: all 3s;
+
+}
+.logo:hover {
+    transform: scale(1.1) translate(5px, -10px);
+}
+.Nombreweb {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 10px;
+}
+
+section{
+    height: 89%;
+    display: flex;
+}
+
+#gente{
+    background: linear-gradient(-90deg,#196231,#35a253,#6bc481);
+    width: 30%;
+    height: 93.5%;
+    padding: 24px;
+    
+
+}
+#cabecera_gente{
+    display: flex;
+    float: center;
+}
+#buscar_amigos{
+    display: flex;
+    margin: 12px;
+    margin-top: 15px;
+}
+
+.barra_busqueda{
+    width: 80%;
+    border-radius: 10px;
+}
+#boton_buscar{
+    width: 40px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+#contenedor{
+    display: flex;
+    overflow: auto;
+    scrollbar-width: 50px;
+    scrollbar-color: blue;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    height: 13%;
+    width: 100%;
+    background-color: #c7ffd0;
+    border-radius: 5px;
+    scrollbar-color: blue;
+    scrollbar-width: thin;
+    text-align: center;
+}
+#contenedor_centro{
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+#foto_perfil{
+    text-align: center;
+    margin-left: 4px;
+}
+#foto_perfil:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px inset;
+    
+}
+#imagen{
+    width: 40px;
+    height: 38px;
+    padding: 5px;  
+}
+#nose{
+    position: relative;
+    background-color: greenyellow;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    border: 1px black solid; 
+}
+#nose2{
+    position: relative;
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    border: 1px black solid; 
+}
+h3{
+    margin: 3px;
+    margin-left: 15px;
+    padding: 4%;
+    height: 5%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150%;
+}
+img{
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+   
+}
+
+
+
+
+#scroll{
+    overflow-y: scroll;
+ /*   overflow-x: hidden;*/
+    width: 100%;
+    height: 60%;
+    padding-top: 5px;
+}
+
+#registro{
+    display: flex;
+    background-color: #e5fee8;
+    padding: 6px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px black solid;
+    display: flex;
+    height: auto;
+    width: 92%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+
+}
+#registro:hover{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px inset;
+    
+}
+#nombre_hora{
+    display: flex;
+    width: 100%;
+}
+#nombre_registro{
+    width: 70%;
+}
+#hora_resgistro{
+    width: 30%;
+    text-align: right;
+}
+
+
+.texto_relleno{
+    display: block;
+}
+#textos_registro{
+    width: 100%;
+}
+#loro{
+    border-radius: 100%;
+    width: 35px;
+    height: auto;
+}
+
+#img_registro{
+    margin-top: 17px;
+    margin-right: 7px;
+}
+
+#conversacion{
+    background-color:#c8ffc3;
+    width: 70%;
+}
+
+#cabecera{
+    display: flex;
+    padding-left: 35px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    height: 10%;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background: linear-gradient(to bottom left,#4caa665f,#4caa66,#2a8c4a);
+}
+
+#f_n_cabecera{
+    display: flex;
+    flex-grow: 2;
+}
+#foto_cabecera{
+    margin-top: 15px;
+    margin-right: 7px;
+}
+#nombre_cabecera{
+    display: block;
+    font-size: 17px;
+    color: white;
+}
+#estado{
+    display: block;
+    font-size: 10px;
+    color: white;
+}
+
+#iconos{
+    display: flex;
+}
+.lupa_puntos{
+    width: 17px;
+    height: auto;
+    margin: 7px;
+
+}
+
+
+#mensajes{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    height: 75%;
+    overflow-y: scroll;
+    scrollbar-width: 5px;
+    scrollbar-color: green ;
+    background: linear-gradient(#6cca83,#8beaa160,#abfbbb5B,#8beaa160,#6cca83);
+
+    
+}
+#img_conjunto{
+    display: flex;
+    border-radius: 3%;
+    width: 47%;
+    margin-bottom: 8px;
+}
+#men_apayo{
+    display: flex;
+}
+.apayo{
+   flex-direction: row-reverse;
+}
+#men_conj{
+    background-color: white;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+   
+}
+
+#men_conj_apayo{
+    background-color: #F7FFE7;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  
+}
+#img_imagen{
+    padding: 6px;
+    margin: 6px;
+    height: 50px;
+    align-self: flex-end;
+}
+
+#hora{
+    height: 15px;
+}
+#parte{
+    font-size: 14px;
+    color: gray;
+}
+#parte_apayo{
+    text-align: right;
+
+}
+
+
+
+#iconos2{
+    display: flex;
+}
+#pie{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    padding: 6px;
+    height: 10%;
+    background: linear-gradient(to top right,#4caa665f,#4caa66,#2a8c4a);
+
+}
+input{
+    padding: 4px;
+    width: 100%;
+    height: 40%;
+    align-self: center;
+}
+input:focus{
+    outline-style: none;
+}
+.alinear_iconos{
+    align-self: center;
+}
+#foto{
+    margin-right: 5px;
+}
+#enviar{
+    padding: 6px;
+    text-decoration: none;
+
+}
+#enviar:focus{
+   text-decoration: none;
+}
+#boton_enviar{
+height: 35px;
+align-self: center; 
+margin: 3px;
+cursor: pointer;
+}
+#boton_enviar_casa{
+    height: 35px;
+    align-self: center; 
+    margin: 3px;
+    cursor: pointer;
+}
+
+/*Barra estilo*/
+#contenedor::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+#contenedor::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+#contenedor::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+#contenedor::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+#contenedor::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+#contenedor::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+#mensajes::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+#mensajes::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+#mensajes::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+#mensajes::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+#mensajes::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+#mensajes::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+
+#scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+#scroll::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+#scroll::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+#scroll::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+#scroll::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+#scroll::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}

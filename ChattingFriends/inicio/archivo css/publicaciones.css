@@ -1,0 +1,681 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(87, 127, 26);
+    margin: 0;
+}
+
+.caja1 {
+    overflow: hidden;
+    z-index: 20;
+    display: flex;
+    width: 240px;
+    height: 270px;
+    flex-direction: column;
+    background-color: rgb(38, 134, 24);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.texto {
+    font-size: 13px;
+    color: black;
+    
+}
+
+.publicador img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    transform: none;
+    border: 2px solid rgb(158, 102, 30)
+}
+
+.publicador {
+    margin-top: 10px;
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 105, 1);
+    height: 20%;
+
+
+}
+.botonEnviar
+{
+    width: 25px;
+    height: 25px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.usuario {
+    font-size: 17px;
+    justify-content: center;
+}
+
+.fecha {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    width: 200px;
+}
+
+.minicaja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajalogo {
+    margin: 10px;
+
+}
+
+header {
+    min-height: 20vh;
+    min-width: 280px;
+    background-color: rgba(0, 0, 0, 0.849);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Nombreweb {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 10px;
+}
+
+.navegador {
+    display: flex;
+    flex-direction: column;
+}
+.icono{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    transition: all 3s;
+    z-index: 100px;    
+}
+.icono:hover
+{
+    animation: moving 1.5s steps(50) 1;
+    
+}
+@keyframes moving {
+    0%{
+        transform: translate(0px,0px) scale(1);
+    }
+    50%{
+        transform: translate(5px,-10px) scale(1.3);
+    }
+    100%{
+        transform: translate(0px,0px) scale(1);
+    }
+}
+
+.logo {
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    transition: all 3s;
+
+}
+
+.logo:hover {
+    transform: scale(1.1) translate(5px, -10px);
+}
+
+.usuarioIncognito {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    transform: none;
+}
+.comentario
+{
+    margin: 10px;
+    display: flex;
+    background-color: #b1b0b0;
+    border-radius: 15px;
+    min-width: 230px;
+    min-height: 50px;
+    align-items: center;    
+    /*visibility: hidden;*/
+
+}
+.comment::selection ~ .comentario{
+    visibility: visible;
+}
+.cajacomentario
+{
+
+}
+.share
+{
+    background: url(./img/IconoCompartir.png) no-repeat;
+    height: 90px;
+    width: 90px;
+    background-size: 50%;
+    background-position: center;  
+
+}
+
+
+form {
+    align-items: center;
+}
+
+p {
+    margin: 2px;
+    text-align: justify;
+    font-family: Arial, Helvetica;
+}
+
+.foto {
+    height: 200px;
+    width: 240px;
+    transition: transform 2s;
+    border-radius: 5px;
+
+}
+
+.foto:hover {
+    transform: scale(1.1) translate(5px, -10px);
+
+}
+
+main {
+    position: static;
+    min-height: 60vh;
+    display: flex;
+}
+
+section {
+    margin-top: 8px;
+    min-height: 120vh;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.1);
+
+}
+.contenedorNav {
+    min-height: 60vh;
+    min-width: 18vh;
+    
+
+
+}
+nav {
+
+    min-height: 17vh;
+    min-width: 18vh;
+
+    position: fixed;
+}
+
+.nav {
+    display: flex;
+    cursor: pointer;
+
+    width: 30vh;
+    height: 7vh;
+
+    align-items: center;    
+    justify-content: center;
+    background-color: white;
+
+    font-size: 35px;
+    border-radius: 5px;    
+    margin-top: 5px;
+    color: black;
+    padding: 7px;
+    transition:all 500ms ease;
+    border: 1.5px solid black;
+    text-decoration:none;
+
+
+}
+
+a:hover {
+    background-color: #b9aeb0;
+}
+
+
+/*Corazones*/
+
+/*corazon 1*/
+.heart-btn {
+
+    display: flex;
+    height: 7vh;
+    width: 240px;
+
+}
+
+.content {
+    max-width: 237px;
+    border: 2px solid #eae2e1;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.content .heart {
+
+    height: 90px;
+    width: 90px;
+    background: url(./img/corazón.png) no-repeat;
+    background-position: left;
+    background-size: 2900%;
+
+}
+
+.heart.heart-active {
+    background-position: right;
+    animation: animate 0.8s steps(28) 1;
+}
+
+@keyframes animate {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
+}
+
+.like {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+
+.like.heart-active {
+    color: black;
+}
+
+.numb:before {
+    content: '12';
+    font-size: 21px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #9C9496;
+    margin-left: 8px;
+}
+
+.numb.heart-active:before {
+    content: '13';
+    color: black;
+}
+
+.comment {
+    background: url(./img/comentari-boton.jpg) no-repeat;
+    height: 90px;
+    width: 90px;
+    background-size: 60%;
+    background-position: center;
+    opacity: 0.6;
+    transition: opacity 2s;
+    
+}
+
+.comment:hover {
+    opacity: 1;
+}
+
+
+/*corazon 2*/
+
+.heart-btn1 {
+
+    display: flex;
+    height: 7vh;
+    width: 240px;
+
+}
+
+.content1 {
+    max-width: 237px;
+    border: 2px solid #eae2e1;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.content1 .heart1 {
+
+    height: 90px;
+    width: 90px;
+    background: url(./img/corazón.png) no-repeat;
+    background-position: left;
+    background-size: 2900%;
+
+}
+
+.heart1.heart1-active1 {
+    background-position: right;
+    animation: animate1 0.8s steps(28) 1;
+}
+
+@keyframes animate1 {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
+}
+
+.like1 {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+
+.like1.heart1-active1 {
+    color: black;
+}
+
+.numb1:before {
+    content: '12';
+    font-size: 21px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #9C9496;
+    margin-left: 8px;
+}
+
+.numb1.heart1-active1:before {
+    content: '13';
+    color: black;
+}
+
+.comment1 {
+    background: url(./img/comentari-boton.jpg) no-repeat;
+    height: 90px;
+    width: 90px;
+    background-size: 60%;
+    background-position: center;
+    opacity: 0.6;
+    transition: opacity 3s;
+}
+
+.comment1:cue {
+    opacity: 1;
+}
+
+/*corazon 3*/
+.heart-btn2 {
+
+    display: flex;
+    height: 7vh;
+    width: 240px;
+
+}
+
+.content2 {
+    max-width: 237px;
+    border: 2px solid #eae2e1;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.content2 .heart2 {
+
+    height: 90px;
+    width: 90px;
+    background: url(./img/corazón.png) no-repeat;
+    background-position: left;
+    background-size: 2900%;
+
+}
+
+.heart2.heart2-active2 {
+    background-position: right;
+    animation: animate2 0.8s steps(28) 1;
+}
+
+@keyframes animate2 {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
+}
+
+.like2 {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+
+.like2.heart2-active2 {
+    color: black;
+}
+
+.numb2:before {
+    content: '12';
+    font-size: 21px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #9C9496;
+    margin-left: 8px;
+}
+
+.numb2.heart2-active2:before {
+    content: '13';
+    color: black;
+}
+
+.comment2 {
+    background: url(./img/comentari-boton.jpg) no-repeat;
+    height: 90px;
+    width: 90px;
+    background-size: 60%;
+    background-position: center;
+    opacity: 0.6;
+    transition: opacity 3s;
+}
+
+.comment2:cue {
+    opacity: 1;
+}
+
+/*corazon 4*/
+.heart-btn3 {
+
+    display: flex;
+    height: 7vh;
+    width: 240px;
+
+}
+
+.content3 {
+    max-width: 237px;
+    border: 2px solid #eae2e1;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.content3 .heart3 {
+
+    height: 100px;
+    width: 90px;
+    background: url(./img/corazón.png) no-repeat;
+    background-position: left;
+    background-size: 2900%;
+
+}
+
+.heart3.heart3-active3 {
+    background-position: right;
+    animation: animate2 0.8s steps(28) 1;
+}
+
+@keyframes animate3 {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
+}
+
+.like3 {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+
+.like3.heart3-active3 {
+    color: black;
+}
+
+.numb3:before {
+    content: '12';
+    font-size: 21px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #9C9496;
+    margin-left: 8px;
+}
+
+.numb3.heart3-active3:before {
+    content: '13';
+    color: black;
+}
+
+.comment3 {
+    background: url(./img/comentari-boton.png) no-repeat;
+    height: 90px;
+    width: 90px;
+    background-size: 60%;
+    background-position: center;
+    opacity: 0.6;
+    transition: opacity 3s;
+}
+
+.comment3:cue {
+    opacity: 1;
+}
+
+/*corazon 4*/
+.heart-btn4 {
+
+    display: flex;
+    height: 7vh;
+    width: 240px;
+
+}
+
+.content4 {
+    max-width: 237px;
+    border: 2px solid #eae2e1;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.content4 .heart4 {
+
+    height: 90px;
+    width: 90px;
+    background: url(./img/corazón.png) no-repeat;
+    background-position: left;
+    background-size: 2900%;
+
+}
+
+.heart4.heart4-active4 {
+    background-position: right;
+    animation: animate2 0.8s steps(28) 1;
+}
+
+@keyframes animate4 {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
+}
+
+.like4 {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+
+.like4.heart4-active4 {
+    color: black;
+}
+
+.numb4:before {
+    content: '12';
+    font-size: 21px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #9C9496;
+    margin-left: 8px;
+}
+
+.numb4.heart4-active4:before {
+    content: '13';
+    color: black;
+}
+
+.comment4 {
+    background: url(./img/comentari-boton.png) no-repeat;
+    height: 90px;
+    width: 90px;
+    background-size: 60%;
+    background-position: center;
+    opacity: 0.6;
+    transition: opacity 2s;
+}
+
+.comment4:hover {
+    opacity: 1;
+}
