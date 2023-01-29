@@ -2,13 +2,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: rgba(0, 0, 0, 0.849);
-    margin:0px;
-    height: 100%;
-    width: 100%;
     
 }
 header {
-    min-height: 10vh;
+    min-height: 10%;
     min-width: 280px;
     background-color: rgba(0, 0, 0, 0.849);
     display: flex;
@@ -20,15 +17,13 @@ header {
     margin: 10px;
 
 }
+
 .logo {
     display: block;
-    height: 120px;
-    width: 120px;
     border-radius: 100px;
     transition: all 3s;
 
 }
-
 .logo:hover {
     transform: scale(1.1) translate(5px, -10px);
 }
@@ -39,14 +34,14 @@ header {
 }
 
 section{
-    height: 90vh;
+    height: 89%;
     display: flex;
 }
 
 #gente{
     background: linear-gradient(-90deg,#196231,#35a253,#6bc481);
     width: 30%;
-    height: 98.8vh;
+    height: 93.5%;
     padding: 24px;
     
 
@@ -202,7 +197,6 @@ img{
 #conversacion{
     background-color:#c8ffc3;
     width: 70%;
-    height: 90vh;
 }
 
 #cabecera{
@@ -211,7 +205,7 @@ img{
     padding-right: 20px;
     padding-top: 6px;
     padding-bottom: 6px;
-    height: 10vh;
+    height: 10%;
     box-shadow:rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     background: linear-gradient(to bottom left,#4caa665f,#4caa66,#2a8c4a);
 }
@@ -251,7 +245,7 @@ img{
     padding-right: 5px;
     padding-top: 6px;
     padding-bottom: 6px;
-    height: 80vh;
+    height: 75%;
     overflow-y: scroll;
     scrollbar-width: 5px;
     scrollbar-color: green ;
@@ -292,6 +286,7 @@ img{
 #img_imagen{
     padding: 6px;
     margin: 6px;
+    height: 50px;
     align-self: flex-end;
 }
 
@@ -316,7 +311,7 @@ img{
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
     padding: 6px;
-    height: 10vh;
+    height: 10%;
     background: linear-gradient(to top right,#4caa665f,#4caa66,#2a8c4a);
 
 }
