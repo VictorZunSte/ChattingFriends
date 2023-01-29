@@ -1,0 +1,70 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4CAF50;
+    height: 100%;
+    width: 100%;
+    }
+  header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+  }
+
+  #divhijo{
+    display: flex;
+  }
+
+  header h1 {
+    margin: 0;
+    
+  }
+
+  #logo{
+    width: 130px;
+    height: 95px;
+  }
+
+  .fotoperfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    margin: 10px;
+    display: flex;
+  }
+  .fotoperfil img {
+    width: 100%;
+    height: 100%;
+  }
+  .infoperfil {
+    padding: 20px;
+  }
+
+  .fotosperfil {
+    background-color: white;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .fotosperfil img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  div
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
