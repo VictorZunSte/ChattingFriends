@@ -42,8 +42,7 @@ section{
     background: linear-gradient(-90deg,#196231,#35a253,#6bc481);
     width: 30%;
     height: 93.5%;
-    padding: 24px;
-    
+    padding: 24px;    
 
 }
 #cabecera_gente{
@@ -90,6 +89,19 @@ section{
 #foto_perfil{
     text-align: center;
     margin-left: 4px;
+}
+#foto_perfil:hover{
+    animation-name: agrandar;
+    animation-duration: 2s;
+   
+}
+@keyframes agrandar {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.3);
+    }
 }
 #foto_perfil:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px inset;
