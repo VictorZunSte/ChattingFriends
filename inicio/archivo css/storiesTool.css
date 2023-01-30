@@ -1,0 +1,161 @@
+.container-all
+{
+    position: relative;
+}
+body
+{
+    background-color: #4caf50;
+    flex-direction: column;
+}
+main
+{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 200px ;
+    margin-left: 200px;
+    justify-content: center;
+   
+}
+aside
+{
+    display: flex;
+    flex-direction:column;
+}
+
+.historia
+{ 
+    margin-top: 5px;
+    display: flex;
+    flex-direction:column; 
+}
+
+article
+{
+    display: inl;
+    flex-direction: row;
+    max-height:8%;
+    padding: 1%;
+    background-color: white;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px ;
+}
+
+
+.icono
+{
+    display: flex;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: black;
+    height: 100%;
+
+}
+
+footer
+{
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    height: 80px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+
+input
+{
+    border-radius: 10px;
+    will-change: contents;
+    width: 400px;
+    height: 35px;
+}
+
+.usuario
+{   display:flex; 
+    flex-direction: row; 
+    background-color: black;
+}
+
+.imagen
+{display:inline-flex;}
+
+ul 
+{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+li 
+{
+    list-style: none inside;
+    padding: 0px;
+    margin: 0px;
+    left: -25px;
+}
+
+.corazon
+{
+    display: flex;
+    font-size: xx-large;
+    margin-left:500px
+}
+.sobre
+{
+    display: flex;
+    font-size: xx-large; 
+    margin-left: 30px;
+}
+
+.slider 
+{  
+    width: 100%; 
+    height: 600px;
+    overflow: hidden;
+}
+.slider ul
+{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+
+.slider li
+{
+   width: 100%; 
+}
+.slider img
+{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio
+{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left:-300% ;}
+}
+
+
+
+
+
+
+
